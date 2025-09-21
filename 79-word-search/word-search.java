@@ -25,7 +25,7 @@ class Solution {
                         dfs(board, word, i, j + 1, index + 1) ||
                         dfs(board, word, i, j - 1, index + 1);
 
-        board[i][j] = temp; // backtrack
+        board[i][j] = temp; 
         return found;
     }
 }
